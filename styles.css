@@ -1,0 +1,29 @@
+/* CSS file placeholder. */
+
+*, html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  background-color: blue;
+  border-radius: 15px;
+}
+
+#sidebar {
+  width: 5%;
+  height: 100%;
+  position: fixed;
+  /* BIRDY LEGS */ 
+}
+
+#sidebar_text {
+  width: 96%;
+  padding: 2%;
+  font-size: 15px;
+}
