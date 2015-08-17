@@ -5,11 +5,11 @@
  * @see http://developer.chrome.com/apps/app.window.html
  */
  chrome.app.runtime.onLaunched.addListener(function(launchData) {
-  chrome.app.window.create(
+	chrome.app.window.create(
     'index.html',
-    {
-      id: 'mainWindow',
-      bounds: {width: 800, height: 600}
-    }
-  );
+		{
+			id: 'mainWindow',
+			bounds: {width: Math.round(window.screen.width), height: Math.round(window.screen.height)}
+		}
+	);
 });

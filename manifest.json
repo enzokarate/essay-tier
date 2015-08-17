@@ -1,14 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Suit ",
-  "short_name": "HelloWorld",
+  "name": "Esssay Tier",
+  "short_name": "Essay Tier",
   "description": "",
   "version": "0.0.1",
   "minimum_chrome_version": "38",
 
   "icons": {
-    "16": "assets/icon_16.png",
-    "128": "assets/icon_128.png"
   },
 
   "app": {
