@@ -8,6 +8,7 @@
 	chrome.app.window.create(
     'index.html',
 		{
+      frame: "none",
 			id: 'mainWindow',
 			bounds: {width: Math.round(window.screen.width), height: Math.round(window.screen.height)}
 		}
